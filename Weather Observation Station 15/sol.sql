@@ -1,0 +1,3 @@
+SELECT 
+    ROUND(LONG_W,4)
+FROM Station where LAT_N < 137.2345 order by LAT_N DESC LIMIT 1;
